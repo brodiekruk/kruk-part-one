@@ -1,0 +1,142 @@
+body {
+    font-style:url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap'); ;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+.button {
+    background-color: #20a8b4;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.button a {
+    color: #fff;
+    padding: 7px;
+}
+
+.button a:hover {
+    color: #f2f2f2;
+}
+
+.button:hover {
+    background-color: #ff5c0f;
+    color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.nav-list :hover{
+    color:#ff5c0f;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+header h1 {
+    display: flex;
+}
+
+.teal {
+    color: #20a8b4;
+}
+
+.orange {
+    color: #ff5c0f;
+}
+
+header .nav-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+ 
+header .nav-list li {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    font-size: 11px;
+}
+
+.bottom-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+   
+}
+
+.bottom-part h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+img {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        align-self: flex-start;
+    }
+
+    header .nav-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        margin: 0 10px;
+    }
+
+    .button {
+        width: auto;
+        
+       
+    }
+
+    .bottom-part {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10%;
+        
+    }
+
+    .left {
+        padding-top: 5%;
+    }
+
+    img {
+        display: block;
+        width: 30%;
+        height: 30%;
+        margin-top: 0;
+        margin-left: 45%;
+        
+    }
+}
